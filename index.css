@@ -1,0 +1,45 @@
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  background: linear-gradient(to top right, #ffdee9, #b5fffc);
+
+  font-family: 'Poppins', cursive;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  overflow: hidden;
+
+  text-align: center;
+
+}
+
+h1 {
+
+  color: #ff4081;
+
+  font-size: 2.8em;
+
+  animation: float 3s ease-in-out infinite;
+
+}
+
+p, #secretMessage {
+
+  font-size: 1.8em;
+
+  max-width: 90%;
+
+  color: #444;
+
+  line-height: 1.8;
